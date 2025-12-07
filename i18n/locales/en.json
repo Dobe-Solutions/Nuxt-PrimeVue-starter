@@ -1,0 +1,109 @@
+{
+  "common": {
+    "companyName": "Dobe Solutions Ltd.",
+    "navigation": {
+      "home": "Home",
+      "contact": "Contact",
+      "legal": "Legal",
+      "menu": "Menu",
+      "language": "Language",
+      "toggleMenu": "Toggle menu",
+      "closeMenu": "Close menu"
+    },
+    "footer": {
+      "copyright": "© {year} {company} - All rights reserved"
+    },
+    "error": {
+      "title": "Content Not Available"
+    }
+  },
+  "pages": {
+    "index": {
+      "title": "Home",
+      "menu": "Home",
+      "hero": {
+        "eyebrow": "Nuxt + PrimeVue Starter",
+        "headline": "Basic Nuxt + PrimeVue stack\nto get started faster",
+        "subheadline": "Integrated most important packages to work with Nuxt.",
+        "features": {
+          "headline": "What is included",
+          "tailwind": {
+            "title": "Tailwind CSS",
+            "desc": "Utility-first styling with shared design tokens."
+          },
+          "i18n": {
+            "title": "i18n",
+            "desc": "Locale-aware routes and translations ready to use."
+          },
+          "seo": {
+            "title": "Nuxt SEO",
+            "desc": "Sane defaults for sitemap, robots and other SEO needs."
+          },
+          "pinia": {
+            "title": "Pinia",
+            "desc": "Intuitive, type-safe state management for Vue."
+          },
+          "vueuse": {
+            "title": "VueUse",
+            "desc": "Collection of essential Vue Composition Utilities."
+          },
+          "fonts": {
+            "title": "Nuxt Fonts",
+            "desc": "Self-hosted performant font loading via Nuxt module."
+          },
+          "image": {
+            "title": "Nuxt Image",
+            "desc": "Optimized responsive images with automatic format & size selection."
+          },
+          "posthog": {
+            "title": "PostHog",
+            "desc": "Product analytics with event tracking, feature flags, and session replays."
+          }
+        }
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "menu": "Contact",
+      "description": "Get in touch with us. We'd love to hear from you and will respond as soon as possible.",
+      "sections": {
+        "contactForm": "Contact Form"
+      },
+      "form": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "message": "Your Message",
+        "submitButton": "Send Message",
+        "successMessage": "Thank you for your message!",
+        "errorMessage": "There was an error sending your message."
+      }
+    },
+    "legal": {
+      "title": "Legal Notice",
+      "menu": "Legal",
+      "visitCount": "You have visited this page {count} times.",
+      "sections": {
+        "lastUpdated": "Last Updated",
+        "lastUpdatedDate": "October 1st, 2025"
+      },
+      "fields": {
+        "companyName": "Company Name",
+        "address": "Address",
+        "phone": "Phone Numbers",
+        "email": "Email",
+        "website": "Website",
+        "taxCode": "Tax Code",
+        "legalRepresentative": "Legal Representative"
+      },
+      "values": {
+        "companyName": "Công Ty TNHH Dobe Solutions",
+        "address": "Số 18 ngõ 29 ngách 70 phố Khương Hạ,\nPhường Khương Đình, Quận Thanh Xuân,\nThành phố Hà Nội, Việt Nam",
+        "phones": "+84 - 94 4928 984\n+84 - 84 6891 111",
+        "email": "info{'@'}dobe-solutions.vn",
+        "website": "https://dobe-solutions.vn",
+        "taxCode": "0110129704",
+        "legalRepresentative": "Đỗ Thị Lan Hương"
+      }
+    }
+  }
+}

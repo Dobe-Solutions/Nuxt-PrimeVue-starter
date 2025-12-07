@@ -1,0 +1,109 @@
+{
+  "common": {
+    "companyName": "Dobe Solutions Ltd.",
+    "navigation": {
+      "home": "Startseite",
+      "contact": "Kontakt",
+      "legal": "Impressum",
+      "menu": "Menü",
+      "language": "Sprache",
+      "toggleMenu": "Menü öffnen",
+      "closeMenu": "Menü schließen"
+    },
+    "footer": {
+      "copyright": "© {year} {company} - Alle Rechte vorbehalten"
+    },
+    "error": {
+      "title": "Inhalt nicht verfügbar"
+    }
+  },
+  "pages": {
+    "index": {
+      "title": "Startseite",
+      "menu": "Startseite",
+      "hero": {
+        "eyebrow": "Nuxt + PrimeVue Starter",
+        "headline": "Einfacher Nuxt + PrimeVue Stack\nfür einen schnelleren Start",
+        "subheadline": "Die wichtigsten Pakete zur Arbeit mit Nuxt sind integriert.",
+        "features": {
+          "headline": "Was ist enthalten",
+          "tailwind": {
+            "title": "Tailwind CSS",
+            "desc": "Utility-First-Styling mit gemeinsamen Design-Tokens."
+          },
+          "i18n": {
+            "title": "i18n",
+            "desc": "Sprachsensitive Routen und Übersetzungen sofort einsatzbereit."
+          },
+          "seo": {
+            "title": "Nuxt SEO",
+            "desc": "Sinnvolle Voreinstellungen für Sitemap, Robots und andere SEO-Anforderungen."
+          },
+          "pinia": {
+            "title": "Pinia",
+            "desc": "Intuitives, typsicheres Zustandsmanagement für Vue."
+          },
+          "vueuse": {
+            "title": "VueUse",
+            "desc": "Sammlung essenzieller Vue Composition Utilities."
+          },
+          "fonts": {
+            "title": "Nuxt Fonts",
+            "desc": "Performantes Self-Hosting von Schriften über das Nuxt-Modul."
+          },
+          "image": {
+            "title": "Nuxt Image",
+            "desc": "Optimierte responsive Bilder mit automatischer Format- & Größenwahl."
+          },
+          "posthog": {
+            "title": "PostHog",
+            "desc": "Produktanalyse mit Event-Tracking, Feature-Flags und Session-Replays."
+          }
+        }
+      }
+    },
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "menu": "Kontakt",
+      "description": "Nehmen Sie Kontakt mit uns auf. Wir freuen uns auf Ihre Nachricht und werden so schnell wie möglich antworten.",
+      "sections": {
+        "contactForm": "Kontaktformular"
+      },
+      "form": {
+        "name": "Ihr Name",
+        "email": "Ihre E-Mail",
+        "message": "Ihre Nachricht",
+        "submitButton": "Nachricht senden",
+        "successMessage": "Vielen Dank für Ihre Nachricht!",
+        "errorMessage": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten."
+      }
+    },
+    "legal": {
+      "title": "Impressum",
+      "menu": "Impressum",
+      "visitCount": "Sie haben diese Seite {count} mal besucht.",
+      "sections": {
+        "lastUpdated": "Zuletzt aktualisiert",
+        "lastUpdatedDate": "1. Oktober 2025"
+      },
+      "fields": {
+        "companyName": "Unternehmensname",
+        "address": "Adresse",
+        "phone": "Telefonnummern",
+        "email": "E-Mail",
+        "website": "Website",
+        "taxCode": "Steuernummer",
+        "legalRepresentative": "Gesetzlicher Vertreter"
+      },
+      "values": {
+        "companyName": "Công Ty TNHH Dobe Solutions",
+        "address": "Số 18 ngõ 29 ngách 70 phố Khương Hạ,\nPhường Khương Đình, Quận Thanh Xuân,\nThành phố Hà Nội, Vietnam",
+        "phones": "+84 - 94 4928 984\n+84 - 84 6891 111",
+        "email": "info{'@'}dobe-solutions.vn",
+        "website": "https://dobe-solutions.vn",
+        "taxCode": "0110129704",
+        "legalRepresentative": "Đỗ Thị Lan Hương"
+      }
+    }
+  }
+}
