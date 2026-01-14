@@ -86,9 +86,15 @@ const handleSubmit = async () => {
   errorMessage.value = null;
   successMessage.value = null;
 
-  const { error } = await useFetch('my-custom-backend.com/api/contact', {
+  const payload = {
+    name: formData.name,
+    email: formData.email,
+    message: formData.message,
+  };
+
+  const { error } = await useFetch('/api/contact', {
     method: 'POST',
-    body: formData,
+    body: payload,
   });
 
   if (error.value) {
@@ -100,7 +106,7 @@ const handleSubmit = async () => {
     formData.email = '';
     formData.message = '';
 
-    $posthog()?.capture('Contact Request');
+    $posthog()?.capture('Contact Request', payload);
   }
 
   isSubmitting.value = false;

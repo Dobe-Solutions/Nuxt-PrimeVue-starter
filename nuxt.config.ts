@@ -4,6 +4,8 @@ import theme from 'tailwindcss/defaultTheme';
 
 const appDomain = process.env.APP_DOMAIN || 'localhost:3000';
 
+const isDevelopmentEnvironment = process.env.NODE_ENV === 'development';
+
 // color and theming setup
 const mainColor = '#0075BC';
 const colorPalette = palette(mainColor);
@@ -15,7 +17,7 @@ const primeVueThemePreset = definePreset(Aura, {
 
 export default defineNuxtConfig({
   compatibilityDate: 'latest',
-  devtools: { enabled: process.env.NODE_ENV === 'development' },
+  devtools: { enabled: isDevelopmentEnvironment },
   runtimeConfig: {
     public: {
       siteName: process.env.SITE_NAME || 'Nuxt PrimeVue Starter',
@@ -105,7 +107,7 @@ export default defineNuxtConfig({
   },
   posthogConfig: {
     publicKey: process.env.POSTHOG_PUBLIC_KEY || '',
-    host: 'https://eu.i.posthog.com',
+    host: isDevelopmentEnvironment ? '/posthog' : 'https://eu.i.posthog.com',
     clientConfig: {
       capture_exceptions: true,
     },
