@@ -78,6 +78,18 @@
         "errorMessage": "There was an error sending your message."
       }
     },
+    "login": {
+      "title": "Login",
+      "menu": "Login",
+      "hint": "Logging in with {email} will succeed. This will also create a PostHog cookie and identify the user by their email address.",
+      "form": {
+        "email": "Email",
+        "password": "Password",
+        "submitButton": "Login",
+        "successMessage": "Login successful.",
+        "errorMessage": "Login failed. Please check your details."
+      }
+    },
     "legal": {
       "title": "Legal Notice",
       "menu": "Legal",

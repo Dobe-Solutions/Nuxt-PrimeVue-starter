@@ -109,6 +109,10 @@ export default defineNuxtConfig({
     publicKey: process.env.POSTHOG_PUBLIC_KEY || '',
     host: isDevelopmentEnvironment ? '/posthog' : 'https://eu.i.posthog.com',
     clientConfig: {
+      // Default: no cookies / no localStorage persistence.
+      // After login, we switch to persistent mode in app/plugins/posthog-login-sync.client.ts
+      persistence: 'memory',
+      disable_cookie: true,
       capture_exceptions: true,
     },
     serverConfig: {

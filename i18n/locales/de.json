@@ -78,6 +78,18 @@
         "errorMessage": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten."
       }
     },
+    "login": {
+      "title": "Login",
+      "menu": "Login",
+      "hint": "Der Login mit {email} ist erfolgreich. Dabei wird auch ein PostHog-Cookie erstellt und der Nutzer über seine E-Mail-Adresse identifiziert.",
+      "form": {
+        "email": "E-Mail",
+        "password": "Passwort",
+        "submitButton": "Login",
+        "successMessage": "Login erfolgreich.",
+        "errorMessage": "Login fehlgeschlagen. Bitte prüfen Sie Ihre Eingaben."
+      }
+    },
     "legal": {
       "title": "Impressum",
       "menu": "Impressum",
